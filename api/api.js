@@ -33,4 +33,7 @@ export default async function handler(req, res) {
     res.status(500).json({ error: "IBP proxy error" });
   }
 }
+.done(function(javascript_json){
+  exploiterIBP(javascript_json);
+});
 
